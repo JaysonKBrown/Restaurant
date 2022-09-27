@@ -1,0 +1,117 @@
+:root {
+    --primFont: 'Cedarville Cursive', cursive;
+    --secFont: 'Titillium Web', sans-serif;
+
+    --primColor: #000080;
+    --secColor: #008080;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+  ========================================== */
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background-color: var(--secColor);
+    color: var(--cream);
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.middle-header{
+    background: linear-gradient(#005660 0%, #007475 2%,  #008081 25%, #229389 100%);
+}
+.middle-header h1{
+    color: white;
+}
+.middle-header a{
+    color: var(--cream);
+}
+
+.cursive{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 30px;
+}
+.bottom-header{
+    background-color: var(--cream);
+}
+.font{
+    font-size: 45px;
+}
+.top-section a{
+    color: var(--redish);
+    font-size: 20px;
+    font-weight: 300;
+}
+figure{
+    background-color: white;
+}
+
+.middle-section{
+    background-color: #f9f5ea;
+}
+.middle-section h3{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+}
+.middle-section li{
+    display: inline-block;
+}
+.middle-section a{
+    color: var(--primColor);
+}
+.middle-section .icon{
+    width: 60px;
+    height: 60px;
+}
+
+.bottom-section {
+    background-color: teal;
+}
+.bottom-section li{
+    font-size: 20px;
+    color: #005660;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+}
+footer{
+    background-color: #229389
+}
+.top-footer a, .top-footer h5, .top-footer div, .bottom-footer h1, .bottom-footer p{
+    color: var(--secColor);
+}
+.top-footer p{
+    color: blanchedalmond;
+}
+.underline {
+    text-decoration: underline;
+}
+.border {
+    border-top: 1px solid #8c8982;
+    padding-top: 18px;
+}
+.nav{
+    color:var(--primColor)
+}
